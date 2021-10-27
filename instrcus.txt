@@ -1,0 +1,23 @@
+gestion de los puertos
+
+1 - utilizando las directivas asociadas al control de memoria
+	- byte: podemos definir un bbyte spesifico en la memoria ram en una variable 
+	- bit
+
+	funciones para trabajar bit a bit
+	bit_set()
+	bit_clear()
+	swap()
+	bit_test()
+
+
+2 - utilizando las directivas q asocian librerias y funciones predefinidas
+	- #use fast_io() -> es obligatorio usar set_tris() para configurar los puertos
+	- #standard_io() -> no es obligatorio el uso de set_tris(), dan valor inicial a los pines
+
+	funciones para trabjar con los pertos
+		- output_x()
+		- input_x()   
+		- input_high()   
+		- input_low()
+		- set_tris_x()   
