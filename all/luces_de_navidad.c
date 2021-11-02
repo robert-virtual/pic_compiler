@@ -7,7 +7,7 @@
 
 void main(){
 
-   tris_b = 0b00000000;//etablecer pines como entrada
+   tris_b = 0b00000000;// establecer pines como entrada
   
    while(1){
       port_b = 0b11111111; // establecer estado
