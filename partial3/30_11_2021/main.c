@@ -10,7 +10,7 @@
 
 //long valor_adc;//potenciometro 
 //float voltaje;//potenciometro 
-// #use standard_io(a,b)
+// #use standard_io(c)
 
 void main(){
     // configurar pin a anologivo
@@ -35,6 +35,7 @@ void main(){
         lcd_gotoxy(1,2);
         printf(lcd_putc,"%.2f C",centigrados);
         delay_ms(300); // microsegundos
+      
     }
 }
 
